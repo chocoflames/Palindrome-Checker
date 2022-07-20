@@ -53,6 +53,10 @@ header p{
     pointer-events: none;
     background: #aa57cc;
 }
+.inputs button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
 .info-txt{
     display: none;
     font-size: 19px;
