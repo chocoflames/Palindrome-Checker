@@ -1,6 +1,8 @@
 const txtInput = document.querySelector(".inputs input");
 const checkBtn = document.querySelector(".inputs button");
 
+checkBtn.addEventListener
+
 txtInput.addEventListener("keyup", () => {
     //removing spaces & all special character from entered value
     let filterInput = txtInput.value.replace(/[^A-z0-9]/ig, "")
