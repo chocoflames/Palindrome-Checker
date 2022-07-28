@@ -66,3 +66,14 @@ header p{
 .info-txt span{
     color: #aa57cc;
 }
+
+@media screen and (max-width: 540px) {
+    .wrapper{
+        width: 420px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .wrapper{
+        width: 330px;
+    }
+}
